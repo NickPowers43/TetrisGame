@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace TetrisGame
 {
-    class Program
+    enum Pieces
     {
-        static void Main(string[] args)
-        {
-        }
+        Square = 0,
+        Bar = 1,
+        ZigCW = 2,
+        ZigCC = 3,
+        LCW = 4,
+        LCC = 5,
+        T = 6
     }
 }
